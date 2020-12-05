@@ -1,0 +1,44 @@
+.avengers-box {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+#slide-container{	
+  position: relative;
+}
+
+.slide-title {
+  font-family: Comic Sans MS;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#avenger-image {
+  height: 350px;
+  width: 350px;
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  border: none;
+  position: absolute;
+  top: calc(50% - 50px);
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 100px;
+}
+
+.arrow-right {
+  right: 100px;
+}
+
+.arrow img {
+  width: 35px;
+  height: 35px;
+}
